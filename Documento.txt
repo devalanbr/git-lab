@@ -23,4 +23,8 @@
     E possivel adicionar apenas a extenção do arquivos no arquivo gitignore que deseja ignorar,
     exemplo : *.txt *.SQL ou qualis quer extenção que deseja ignorar. (OBS) 
     utilizar asteristico (*)(.)(Extenção)  ponto extenção  como no exemplo acima *.txt  *SQL
-
+    revert : funcionalidade que Não apaga o codigo do commit que teve erro ou funcionalizade errada . podendo reverter o commit sem as alterações do commit.
+    Como proceder copia o codigo do commit no comando : git log
+    executa o comando : git revert codigolog  -> vai abrir no editor para abrir o codigo para edição.
+    executa o comando : git revert --no-edit codigolog .
+    Fica registrado no log de commits.
