@@ -14,4 +14,13 @@
     
     comando : git push -u origin nomedobranch 
     > apos executado o push : E solicitado a senha (ATUAL TOKEN DEV DO REPOSITORIO)
- 
+
+    link com Projetos /ignore modelos git
+    > https://github.com/github/gitignore
+
+    Para fazer Arquivos e ducumentos serem ignorados  pelo Git.
+    Criar um arquivo com nome : .gitignore
+    E possivel adicionar apenas a extenção do arquivos no arquivo gitignore que deseja ignorar,
+    exemplo : *.txt *.SQL ou qualis quer extenção que deseja ignorar. (OBS) 
+    utilizar asteristico (*)(.)(Extenção)  ponto extenção  como no exemplo acima *.txt  *SQL
+
